@@ -1,0 +1,7 @@
+{
+  "inherits": [
+    "clouds/hp.json"
+  ],
+  "options": {
+  }
+}

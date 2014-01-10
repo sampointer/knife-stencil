@@ -1,0 +1,9 @@
+{
+  "matches": "live-pretendtown-lb[00-99]+",
+  "inherits": [
+    "environments/live.json",
+    "services/lb.json"
+  ],
+  "options": {
+  }
+}

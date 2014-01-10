@@ -1,0 +1,23 @@
+{
+  "inherits": [
+    "base.json"
+  ],
+  "options": {
+    "plugin": "ec2",
+    "image": "ami-fbb2fc92",
+    "aws_access_key_id": "CHANGEME",
+    "aws_secret_access_key": "CHANGEME",
+    "aws_ssh_key_id": "CHANGEME",
+    "flavor": "m1.small",
+    "ssh_user": "ubuntu",
+    "identity_file": "CHANGEME",
+    "distro": "chef-full",
+    "host_key_verify": false,
+    "no_host_key_verify": true,
+    "security_group_ids": [
+      "CHANGEME",
+      "CHANGEME"
+    ]
+  }
+}
+

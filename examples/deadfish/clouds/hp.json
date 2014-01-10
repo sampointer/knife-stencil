@@ -1,0 +1,19 @@
+{
+  "inherits": [
+    "base.json"
+  ],
+  "options": {
+    "plugin": "hp",
+    "flavor": "101",
+    "image": "75845",
+    "distro": "chef-full",
+    "hp_tenant_id": "CHANGEME",
+    "hp_secret_key": "CHANGEME",
+    "hp_access_key": "CHANGEME",
+    "hp_ssh_key_id": "CHANGEME",
+    "host_key_verify": false,
+    "no_host_key_verify": true,
+    "identity_file": "CHANGEME",
+    "ssh_user": "ubuntu"
+  }
+}

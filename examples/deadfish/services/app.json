@@ -1,0 +1,7 @@
+{
+  "inherits": [
+    "clouds/ec2.json"
+  ],
+  "options": {
+  }
+}

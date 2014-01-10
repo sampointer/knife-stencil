@@ -1,0 +1,14 @@
+{
+  "inherits": [
+  ],
+  "options": {
+    "ssh_user": "root",
+    "ssh_port": "22",
+    "identity_file": "",
+    "host_key_verify": false,
+    "prerelease": false,
+    "environment": "_default",
+    "run_list": ["recipe[hello_world]", "recipe[hello_world]"]
+  }
+}
+
