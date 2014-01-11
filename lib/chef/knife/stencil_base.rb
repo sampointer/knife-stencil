@@ -16,6 +16,7 @@
 #
 
 require 'chef/knife'
+require 'chef/knife/stencil_digital_ocean_shim'
 
 class Chef
   class Knife

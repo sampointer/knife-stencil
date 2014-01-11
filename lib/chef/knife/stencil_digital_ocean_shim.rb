@@ -24,11 +24,15 @@ class Chef
     # plugin, as it breaks various naming conventions.
     module StencilDigitalOceanShim
 
-    # Wrapper around non-conventional class name
-    class DoServerCreate < Chef::Knife::DigitalOceanDropletCreate; end
+    begin
+      require 'knife-digital_ocean'
+      # Wrapper around non-conventional class name
+      class DoServerCreate < Chef::Knife::DigitalOceanDropletCreate; end
 
-    # Wrapper around non-conventional class name
-    class DoServerDelete < Chef::Knife::DigitalOceanDropletDestroy; end
+      # Wrapper around non-conventional class name
+      class DoServerDelete < Chef::Knife::DigitalOceanDropletDestroy; end
+    rescue LoadError
+    end
 
     end
   end
