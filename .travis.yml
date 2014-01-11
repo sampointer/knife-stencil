@@ -7,7 +7,7 @@ deploy:
   provider: rubygems
   api_key:
     secure: fAI2GlU0tCtZVxA80nUjC/1PriviYXb5F3a58wlbpgy0NTWxGgQxvYJOI3pvYCqIRI9CnqP/S3k642n40DomgBThAgi42vkCYKGG50dfaFKzgwu1xMWIGs3DXfsQD2nh7V5SNKncOpy2bo6GRdhPLkroQIy9XwjmAcPsEZ50jbc=
-  gem: knife-template
+  gem: knife-stencil
   on:
     tags: true
     repo: opsunit/knife-stencil
