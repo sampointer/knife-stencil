@@ -25,7 +25,7 @@ class Chef
     module StencilDigitalOceanShim
 
     begin
-      require 'knife-digital_ocean'
+      require 'chef/knife/digital_ocean_base'
       # Wrapper around non-conventional class name
       class DoServerCreate < Chef::Knife::DigitalOceanDropletCreate; end
 
