@@ -10,5 +10,5 @@ deploy:
   gem: knife-template
   on:
     tags: true
-    repo: opsunit/knife-template
+    repo: opsunit/knife-stencil
     ruby: 1.9.3
