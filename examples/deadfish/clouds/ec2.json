@@ -4,7 +4,9 @@
   ],
   "options": {
     "plugin": "ec2",
-    "image": "ami-fbb2fc92",
+    "region": "eu-west-1",
+    "availability_zone": "eu-west-1c",
+    "image": "ami-14907e63",
     "aws_access_key_id": "CHANGEME",
     "aws_secret_access_key": "CHANGEME",
     "aws_ssh_key_id": "CHANGEME",
