@@ -1,5 +1,7 @@
 # Introduction
 
+![OpsUnit Logo][99]
+
 `knife-stencil` is a plugin for the command-line client of [Chef][6]. It enables teams to launch hosts in multiple clouds simply by following their own naming convention. It is brought to you by the folks at [OpsUnit][1].
 
 ## Description
@@ -126,3 +128,4 @@ The gem and its dependencies are tested against the following ruby versions:
 [4]: https://github.com/opsunit/knife-stencil/tree/master/examples
 [5]: https://github.com/opscode/knife-ec2/commit/169350ab0dcf11e7e5c224a1c2333707f0364c54
 [6]: http://www.getchef.com/
+[99]: http://opsunit.com/assets/images/opsunit-logo-large.png
