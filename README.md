@@ -1,4 +1,4 @@
-# Introduction
+# knife-stencil [![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil)
 
 ![OpsUnit Logo][99]
 
@@ -113,8 +113,6 @@ At the time of writing only the knife-ec2 plugin from version 0.6.6 supports del
 * The plugin will not work with chef/knife 11.8.0 or above, due to changes in the internal options parsing code at that point.
 
 ## Development
-
-[![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil)
 
 The gem and its dependencies are tested against the following ruby versions:
 
