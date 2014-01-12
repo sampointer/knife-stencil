@@ -1,4 +1,6 @@
 require "bundler/gem_tasks"
+require 'bump/tasks'
+
 task :default => [:spec]
 
 # rspec
