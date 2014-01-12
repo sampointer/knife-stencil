@@ -103,6 +103,9 @@ Yields the following option:
 
 4. Manage ~/.chef/stencils using your source control workflow
 
+## Digital Ocean
+`knife-stencil` now supports [Digital Ocean][7] via the [knife-digital_ocean][8] plugin. Use `do` as the value for the `:plugin` key in your `options` hash.
+
 ## The Deletion Caveat
 At the time of writing only the knife-ec2 plugin from version 0.6.6 supports deletion via `:chef_node_name`. Most other plugins require an instance-id or similar parameter to be passed to delete a server. This is in counterpoint to how the stencil plugin would like to work. If the other plugins supported [this kind of thing][5] deletion would be a unified interface, like the creation of servers.
 
@@ -133,3 +136,5 @@ The gem and its dependencies are tested against the following ruby versions:
 [4]: https://github.com/opsunit/knife-stencil/tree/master/examples
 [5]: https://github.com/opscode/knife-ec2/commit/169350ab0dcf11e7e5c224a1c2333707f0364c54
 [6]: http://www.getchef.com/
+[7]: https://www.digitalocean.com/
+[8]: https://github.com/rmoriz/knife-digital_ocean
