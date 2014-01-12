@@ -112,10 +112,10 @@ At the time of writing only the knife-ec2 plugin from version 0.6.6 supports del
 
 ## Change Log
 
-* 1.0.0	Public release
-* 1.0.1 Minor fixups
-* 1.0.2 Build pipeline
-* 1.1.0 Add support for knife-digital_ocean plugin
+* *1.0.0:*	Public release
+* *1.0.1:* Minor fixups
+* *1.0.2:* Build pipeline
+* *1.1.0:* Add support for knife-digital_ocean plugin
 
 ## Development
 
