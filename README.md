@@ -110,6 +110,13 @@ At the time of writing only the knife-ec2 plugin from version 0.6.6 supports del
 
 * The plugin will not work with chef/knife 11.8.0 or above, due to changes in the internal options parsing code at that point.
 
+## Change Log
+
+* 1.0.0	Public release
+* 1.0.1 Minor fixups
+* 1.0.2 Build pipeline
+* 1.1.0 Add support for knife-digital_ocean plugin
+
 ## Development
 
 [![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil)
