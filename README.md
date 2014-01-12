@@ -2,7 +2,9 @@
 
 ![OpsUnit Logo][99]
 
-`knife-stencil` is a `knife` plugin which enables you to consistently launch Chef-managed hosts across multiple clouds by capturing the options that you would typically pass to `knife {ec2,rackspace,hp,...} server create` in JSON templates. It is brought to you by the folks at [OpsUnit][1].
+`knife-stencil` is a `knife` plugin which enables you to consistently launch Chef-managed hosts across multiple clouds by capturing the options that you would typically pass to `knife {ec2,rackspace,hp,...} server create` in JSON templates.
+
+It is brought to you by the folks at [OpsUnit][1].
 
 ## Description
 
