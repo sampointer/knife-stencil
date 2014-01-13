@@ -1,4 +1,4 @@
-# knife-stencil [![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil)
+# knife-stencil [![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil) [![Gem Version](https://badge.fury.io/rb/knife-stencil.png)](http://badge.fury.io/rb/knife-stencil)
 
 ![OpsUnit Logo][99]
 
