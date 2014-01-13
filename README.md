@@ -38,7 +38,7 @@ Some examples of what can be achieved with `knife-stencil` are:
 * **Ensure hosts land in the correct availability zone depending on some aspect of their role:** ensure all slave database servers are in a different AZ to the masters
 * **Dynamically determine host instance type based on client:** client bigcorp has a premium contract, launch their database servers as an m2.4xlarge, otherwise launch as m1.xlarge
 * **Split teams into "tooling" and "operational" streams:** avoid resorting to runbooks to capture knowledge; reproduce it programatically and versioned over time
-* **Enforce legal juristiction restrictions:** all hosts containing "backup" for client "bigcorp" should be in the EU region
+* **Enforce legal jurisdiction restrictions:** all hosts containing "backup" for client "bigcorp" should be in the EU region
 
 # How does it work?
 
