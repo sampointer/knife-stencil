@@ -1,10 +1,8 @@
-# knife-stencil [![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil) [![Gem Version](https://badge.fury.io/rb/knife-stencil.png)](http://badge.fury.io/rb/knife-stencil)
-
-![OpsUnit Logo][99]
+# knife-stencil [![Build Status](https://travis-ci.org/opsunit/knife-stencil.png?branch=master)](https://travis-ci.org/opsunit/knife-stencil) [![Gem Version](https://badge.fury.io/rb/knife-stencil.png)](http://badge.fury.io/rb/knife-stencil) ![](http://ruby-gem-downloads-badge.herokuapp.com/bog?type=total) <img align="right" width="185" height="40" src="http://opsunit.com/assets/images/opsunit-logo-large.png" alt="opsunit" />
 
 `knife-stencil` is a `knife` plugin which enables you to consistently launch Chef-managed hosts across multiple clouds by capturing the options that you would typically pass to `knife $CLOUD server create` in JSON templates.
 
-It is brought to you by the folks at [OpsUnit][1].
+Brought to you by the folks at [OpsUnit][1].
 
 ## Description
 
@@ -134,4 +132,3 @@ The gem and its dependencies are tested against the following ruby versions:
 [4]: https://github.com/opsunit/knife-stencil/tree/master/examples
 [5]: https://github.com/opscode/knife-ec2/commit/169350ab0dcf11e7e5c224a1c2333707f0364c54
 [6]: http://www.getchef.com/
-[99]: http://opsunit.com/assets/images/opsunit-logo-large.png
